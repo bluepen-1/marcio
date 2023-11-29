@@ -1,22 +1,22 @@
-body {background-color :#D9CF43;
-      color: #F2F2F2;
+body {background-color :#d32020;
+    color: #e61e1e;
 }
 
 #titulo {
-    color: #8C3503;
-    text-align:center;
-    font-size: 40px;
+  color: #8C3503;
+  text-align:center;
+  font-size: 40px;
 }
 .texto1 {
-    color: #8C3503;
-    text-align:justify;
-    font-size: 28px;
-    font-family: Lucida Sans;
+  color: #8C3503;
+  text-align:justify;
+  font-size: 28px;
+  font-family:sharingam;
 }
 
 .texto2 {
-    color: #8C3503;
-    text-align:justify;
-    font-size: 38px;
-    font-family: Lucida Sans;
+color: #8C3503;
+text-align:justify;
+font-size: 38px;
+font-family:sharingam;
 }
