@@ -1,39 +1,17 @@
 body{
-    color: gainsboro;
-    background-image: url(soul.jpg);
-background-size: cover;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    color: indigo;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(./death.jpg);
+    background-size: cover;
+ }
+ 
+ ul{
+   display: flex;
+  justify-content: end;
+   list-style: none;
+ }
 
-ul{
-  display: flex;
-  justify-content: left;
-  list-style: none;
-}
-
-a{
-  color: gainsboro;
-  text-decoration: none;
-}
-
-title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 40px;
-}
-
-img {
-  opacity: 1;
-}
-
-img:hover {
-  opacity: 0.1;
-}
-
-img{
-  width: 150px;
-  height: 150px;
-  position: static;
-
-}
+ a{
+   color: rgb(255, 0, 0);
+   text-decoration: none;
+ }
