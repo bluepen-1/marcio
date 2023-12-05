@@ -1,22 +1,39 @@
-body {background-color :#d32020;
-    color: #e61e1e;
+body{
+    color: gainsboro;
+    background-image: url(soul.jpg);
+background-size: cover;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#titulo {
-  color: #8C3503;
-  text-align:center;
+ul{
+  display: flex;
+  justify-content: left;
+  list-style: none;
+}
+
+a{
+  color: gainsboro;
+  text-decoration: none;
+}
+
+title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 40px;
 }
-.texto1 {
-  color: #8C3503;
-  text-align:justify;
-  font-size: 28px;
-  font-family:sharingam;
+
+img {
+  opacity: 1;
 }
 
-.texto2 {
-  color: #8C3503;
-  text-align:justify;
-  font-size: 38px;
-  font-family:sharingam;
+img:hover {
+  opacity: 0.1;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  position: static;
+
 }
